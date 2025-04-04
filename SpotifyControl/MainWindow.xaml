@@ -15,7 +15,7 @@
                 <Image Source="Assets/previous.png" Width="24" Height="24" ToolTip="Next Track"/>
             </Button>
             <Button x:Name="PausePlayBtn" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Click="TogglePlayPause_Click">
-                <Image x:Name="PausePlayImg" Source="Assets/play.png" Width="24" Height="24" ToolTip="Next Track"/>
+                <Image x:Name="PausePlayImg" Source="Assets/pause.png" Width="24" Height="24" ToolTip="Next Track"/>
             </Button>
             <Button Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Click="NextTrack_Click" Margin="10,0,0,0">
                 <Image Source="Assets/next.png" Width="24" Height="24" ToolTip="Next Track" />
